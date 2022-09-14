@@ -8,7 +8,7 @@ import api from "./api";
 function Login() {
   const handleSubmit = async (e) => {
     e.preventDefault();
-    alert(await api.enviar(e.target.email.value, e.target.senha.value));
+    // alert(await api.enviar(e.target.email.value, e.target.senha.value));
     // axios
     //   .get("http://localhost/form-api/cadastrar", values)
     //   // .post("http://localhost/teste__/", values)
@@ -53,9 +53,9 @@ function Login() {
               </div>
               {/* FIM INPUT SENHA */}
 
-              <button className="btn btn-primary" type="submit">
+              <a href="/logado/home" className="btn btn-primary">
                 Login
-              </button>
+              </a>
               <br></br>
               <br></br>
               <a href="/cadastro">Não tem uma conta?</a>

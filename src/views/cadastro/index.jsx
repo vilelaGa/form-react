@@ -20,7 +20,9 @@ function Cadastro() {
                 type="password"
                 placeholder="Senha"
               />
-              <button className="btn btn-primary">Cadastrar</button>
+              <a href="/login/" className="btn btn-primary">
+                Cadastrar
+              </a>
               <br></br>
               <br></br>
               <a href="/login">Já tem uma conta?</a>
